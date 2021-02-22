@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'>
+  <meta charset='utf-8'>
+  <meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+  <title>stapic</title>
+  <meta content='width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0' name='viewport'>
+  <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+  <link href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&amp;subset=latin' rel='stylesheet' type='text/css'>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 640px;
+      margin: auto;
+      text-align: center;
+    }
+
+    .error_page {
+      padding-top: 50px;
+      font-weight: 500;
+      width:100%;
+    }
+
+
+
+    .error_page .title {
+      font-size: 20px;
+      margin: 15px 0;
+      font-weight: bold;
+    }
+
+    .error_page .sentences {
+      font-size: 14px;
+    }
+
+    .error_page img {
+      width: 32px;
+    }
+
+    .error_page img {
+      width: 130px;
+    }
+    .error_page_head {
+      margin: auto;
+      text-align: center;
+    }
+
+    .error_page_head .head-title {
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-size: 8px;
+      font-weight: bold;
+    }
+
+    .error_page_head img {
+      text-align: center;
+      width: 130px;
+    }
+
+    .error_page .end_time {
+      font-size: 14px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #111111;
+      margin-bottom:5px;
+    }
+
+    .error_page .error_redirect a {
+      display: block;
+      margin: 10px;
+    }
+
+    .add_line {
+      text-align: left;
+      font-size: 1rem;
+      margin-top: 1rem;
+      border-left: 4px solid #bf9d62!important;
+      padding-left: 5px;
+      font-weight: bold;
+      font-size: 14px;
+      margin: 10px;
+    }
+    .line {
+      text-align: left;
+      font-size: 14px;
+      font-weight: normal;
+    }
+
+    .finish {
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      color: #eb4357;
+    }
+
+
+    .finish_time {
+      margin: auto;
+      padding: 15px;
+      max-width: 327px;
+      border-radius: 2px;
+      background-color: #f2f2f2;
+      font-weight: normal;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .line-question {
+      max-width: 217px;
+      height: 48px;
+      border-radius: 2px;
+      background-color: #00b900;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin:auto;
+    }
+
+    .line-question .line-text {
+      color: #fff;
+      cursor: none;
+      pointer-events: none;
+      border: none;
+      text-decoration: none;
+    }
+    .line-question .line-text:hover {
+      color: #fff;
+      cursor: none;
+      pointer-events: none;
+      border: none;
+      text-decoration: none;
+    }
+
+    .line-question img {
+      width: 32px;
+    }
+
+
+    .error_page .sentences {
+      font-size: 14px;
+    }
+
+    @media screen and (max-width: 640px) {
+      .container {
+        padding:30px;
+      }
+    }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="error_page_head">
+      <div class="head-title">美容師予約サービス</div>
+      <img src="img/stapic_logo.png" alt="">
+    </div>
+    <hr style="border-color:#eee;border-style:solid;border-width:1px;">
+    <div class="error_page">
+      <div>
+        <img src="img/warning.png" alt="">
+      </div>
+      <div class="title">システムメンテナンスについて</div>
+      <div class="sentences">スタピクをご利用いただきありがとうございます。<br></div>
+      <div class="sentences">ただいまシステムメンテナンスの為、<br>一時的にサービスを停止しております。<br></div>
+      <div class="sentences">ご不便をおかけしてしまい申し訳ありません。<br></div>
+      <div class="sentences">メンテナンス終了まで今しばらくお待ちください。</div>
+      <div class="finish_time">
+        <div class="end_time">メンテナンス終了予定時刻</div>
+        <div class="finish">2020年9月3日（木)午前7:00</div>
+      </div>
+      <hr style="width:100%;border-color:#eee;border-style:solid;border-width:1px;margin-bottom:30px;">
+      <div class="title">メンテナンス期間中のお問い合わせ</div>
+      <div class="error_redirect">
+        <div class="add_line">スタピクをご利用のお客さま</div>
+        <div class="line">スタピクのアプリをご利用の方は公式LINEアカウントからお問い合わせください。</div>
+        <a style="text-decoration: none;" href="https://lin.ee/HbdJAeR">
+          <div class="line-question">
+            <img src="img/line.png" alt="">
+            <span class="line-text">お問い合わせ</span>
+          </div>
+        </a>
+        <div class="add_line">美容師の方</div>
+        <div class="line">美容師の方は以下の公式LINEアカウントからお問い合わせください。</div>
+        <a style="text-decoration: none;" href="https://lin.ee/QdcpphJ">
+          <div class="line-question">
+              <img src="img/line.png" alt="">
+              <span class="line-text">お問い合わせ</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
