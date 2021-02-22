@@ -62,11 +62,11 @@
     .message {
       position: absolute;
       top: calc(50% + 250px);
-      left: calc(50% - 150px);
+      left: calc(50% - 145px);
       max-width: 400.7px;
       max-height: 84.1px;
       text-align: center;
-      font-family: NotoSansJP;
+      font-family: sans-serif;
       font-size: 16px;
       font-weight: bold;
       font-stretch: normal;
@@ -76,15 +76,54 @@
       text-align: center;
     }
 
-    @media screen and (min-width:640px) { 
+    @media screen and (max-width:480px) { 
       .border {
         position: relative;
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 224px;
+        height: 180px;
         background-color: #bf9d62;
-        top: calc(50% - 112px);
+        top: calc(50% - 90px);
+      }
+
+
+
+    .iphone-img {
+      position: absolute;
+      top: calc(50% - 200px);
+      left: calc(50% - 105px);
+      max-height: 400px;
+    }
+
+
+    .logo-img {
+      position: absolute;
+      top: calc(50% - 260px);
+      left: calc(50% - 84px);
+      max-height: 60.1px;
+    }
+
+    .message {
+      position: absolute;
+      top: calc(50% + 200px);
+      left: calc(50% - 145px);
+      max-width: 400.7px;
+      max-height: 84.1px;
+    }
+
+    }
+
+
+    @media screen and (max-width:480px) { 
+      .border {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        background-color: #bf9d62;
+        top: calc(50% - 90px);
       }
     }
 
